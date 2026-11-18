@@ -1,0 +1,25 @@
+{
+  "features": [
+    {
+      "id": "iteration-01-core",
+      "description": "核心離線字樣工具",
+      "passes": true
+    },
+    {
+      "id": "layered-selection-and-symbol-keymap",
+      "description": "語義分類、分層組合、純符號完全獨立與鍵位表",
+      "passes": true,
+      "plan": "docs/plans/iteration-02-layered-selection.md"
+    },
+    {
+      "id": "iteration-02-symbols",
+      "description": "額外 Unicode 符號／顏文字大全資料庫",
+      "passes": false
+    },
+    {
+      "id": "iteration-03-composer",
+      "description": "逐字混搭與自訂字母表製作（不等同本版分層組合）",
+      "passes": false
+    }
+  ]
+}

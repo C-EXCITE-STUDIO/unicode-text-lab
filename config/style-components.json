@@ -1,0 +1,1489 @@
+{
+  "schemaVersion": 1,
+  "total": 166,
+  "styles": {
+    "fontvibe:math_double_struck+deco_double_bracket": {
+      "kind": "preset",
+      "slot": null,
+      "recipe": {
+        "baseId": "fontvibe:math_double_struck",
+        "ornamentId": null,
+        "frameId": "fontvibe:deco_double_bracket",
+        "separatorId": null,
+        "markId": null
+      },
+      "note": "來源含 +；recipe 逐一對應原始元件 ID，原始 steps 不改。"
+    },
+    "fontvibe:deco_sparkle": {
+      "kind": "ornament",
+      "slot": "ornament",
+      "component": {
+        "op": "wrap",
+        "prefix": "✦ ",
+        "suffix": " ✦"
+      }
+    },
+    "fontvibe:deco_flourish": {
+      "kind": "frame",
+      "slot": "frame",
+      "component": {
+        "op": "wrap",
+        "prefix": "⊰ ",
+        "suffix": " ⊱"
+      }
+    },
+    "fontvibe:circled+deco_dot_between": {
+      "kind": "preset",
+      "slot": null,
+      "recipe": {
+        "baseId": "fontvibe:circled",
+        "ornamentId": null,
+        "frameId": null,
+        "separatorId": "fontvibe:deco_dot_between",
+        "markId": null
+      },
+      "note": "來源含 +；recipe 逐一對應原始元件 ID，原始 steps 不改。"
+    },
+    "waterr:Linear": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:backwards+wide_spaced": {
+      "kind": "preset",
+      "slot": null,
+      "recipe": {
+        "baseId": "fontvibe:backwards",
+        "ornamentId": null,
+        "frameId": null,
+        "separatorId": "fontvibe:wide_spaced",
+        "markId": null
+      },
+      "note": "來源含 +；recipe 逐一對應原始元件 ID，原始 steps 不改。"
+    },
+    "waterr:Box Lines": {
+      "kind": "frame",
+      "slot": "frame",
+      "component": {
+        "op": "char_wrap",
+        "prefix": "[̲̅",
+        "suffix": "]",
+        "only": "alnum"
+      },
+      "note": "逐字框：組合模式統一使用 [̲̅字元]；來源數字0的標記位置不同，原始單項轉換保留。"
+    },
+    "fontvibe:runic+deco_dot_between": {
+      "kind": "preset",
+      "slot": null,
+      "recipe": {
+        "baseId": "fontvibe:runic",
+        "ornamentId": null,
+        "frameId": null,
+        "separatorId": "fontvibe:deco_dot_between",
+        "markId": null
+      },
+      "note": "來源含 +；recipe 逐一對應原始元件 ID，原始 steps 不改。"
+    },
+    "waterr:BubbleBlack": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:math_italic": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:circled": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:mimic_wingdings": {
+      "kind": "symbol",
+      "slot": "base",
+      "note": "純符號獨立使用，不允許任何裝飾；鍵位表由實際引擎生成，包含大小寫處理。"
+    },
+    "fontvibe:deco_heart_wrap": {
+      "kind": "ornament",
+      "slot": "ornament",
+      "component": {
+        "op": "wrap",
+        "prefix": "♡ ",
+        "suffix": " ♡"
+      }
+    },
+    "fontvibe:glitch_cross": {
+      "kind": "mark",
+      "slot": "mark",
+      "component": {
+        "op": "append",
+        "marks": "̸̷",
+        "only": "letters",
+        "sourceOnly": "ascii_letters"
+      }
+    },
+    "fontvibe:mimic_cjk": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:deco_sparkle_between": {
+      "kind": "separator",
+      "slot": "separator",
+      "component": {
+        "op": "join",
+        "separator": "✩"
+      }
+    },
+    "fontvibe:zalgo_max": {
+      "kind": "mark",
+      "slot": "mark",
+      "component": {
+        "op": "zalgo",
+        "up": 7,
+        "mid": 2,
+        "down": 7,
+        "pools": {
+          "up": [
+            "̀",
+            "́",
+            "̂",
+            "̃",
+            "̄",
+            "̅",
+            "̆",
+            "̇",
+            "̈",
+            "̉",
+            "̊",
+            "̋",
+            "̌",
+            "̍",
+            "̎",
+            "̏",
+            "̐",
+            "̑",
+            "̒",
+            "̓",
+            "̔",
+            "̕",
+            "̽",
+            "̾",
+            "̿",
+            "̀",
+            "́",
+            "͂",
+            "̓",
+            "̈́",
+            "͆",
+            "͇",
+            "͈",
+            "͉",
+            "͊",
+            "͋",
+            "͌",
+            "͐",
+            "͑",
+            "͒",
+            "͗",
+            "͛",
+            "ͣ",
+            "ͤ",
+            "ͥ",
+            "ͦ",
+            "ͧ",
+            "ͨ",
+            "ͩ",
+            "ͪ",
+            "ͫ",
+            "ͬ",
+            "ͭ",
+            "ͮ",
+            "ͯ"
+          ],
+          "mid": [
+            "̕",
+            "̛",
+            "̀",
+            "́",
+            "͘",
+            "̡",
+            "̢",
+            "̧",
+            "̨",
+            "̴",
+            "̵",
+            "̶",
+            "̷",
+            "̸",
+            "͏",
+            "͜",
+            "͝",
+            "͞",
+            "͟",
+            "͠",
+            "͡",
+            "͢"
+          ],
+          "down": [
+            "̖",
+            "̗",
+            "̘",
+            "̙",
+            "̚",
+            "̛",
+            "̜",
+            "̝",
+            "̞",
+            "̟",
+            "̠",
+            "̡",
+            "̢",
+            "̣",
+            "̤",
+            "̥",
+            "̦",
+            "̧",
+            "̨",
+            "̩",
+            "̪",
+            "̫",
+            "̬",
+            "̭",
+            "̮",
+            "̯",
+            "̰",
+            "̱",
+            "̲",
+            "̳",
+            "̹",
+            "̺",
+            "̻",
+            "̼",
+            "͇",
+            "͈",
+            "͉",
+            "͍",
+            "͎",
+            "͓",
+            "͔",
+            "͕",
+            "͖",
+            "͙",
+            "͚"
+          ]
+        },
+        "only": "letters"
+      }
+    },
+    "fontvibe:deco_skull_between": {
+      "kind": "separator",
+      "slot": "separator",
+      "component": {
+        "op": "join",
+        "separator": "☠"
+      }
+    },
+    "fontvibe:title_case": {
+      "kind": "tool",
+      "slot": "base"
+    },
+    "fontvibe:math_fraktur": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:deco_music_between": {
+      "kind": "separator",
+      "slot": "separator",
+      "component": {
+        "op": "join",
+        "separator": "♫"
+      }
+    },
+    "fontvibe:wide_spaced": {
+      "kind": "separator",
+      "slot": "separator",
+      "component": {
+        "op": "join",
+        "separator": " "
+      }
+    },
+    "fontvibe:deco_crown": {
+      "kind": "ornament",
+      "slot": "ornament",
+      "component": {
+        "op": "wrap",
+        "prefix": "♛ ",
+        "suffix": " ♛"
+      }
+    },
+    "waterr:Symbolic": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:math_italic+deco_sparkle": {
+      "kind": "preset",
+      "slot": null,
+      "recipe": {
+        "baseId": "fontvibe:math_italic",
+        "ornamentId": "fontvibe:deco_sparkle",
+        "frameId": null,
+        "separatorId": null,
+        "markId": null
+      },
+      "note": "來源含 +；recipe 逐一對應原始元件 ID，原始 steps 不改。"
+    },
+    "fontvibe:deco_cherry": {
+      "kind": "ornament",
+      "slot": "ornament",
+      "component": {
+        "op": "wrap",
+        "prefix": "🌸 ",
+        "suffix": " 🌸"
+      }
+    },
+    "fontvibe:morse": {
+      "kind": "tool",
+      "slot": "base"
+    },
+    "fontvibe:runic": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:deco_cross": {
+      "kind": "ornament",
+      "slot": "ornament",
+      "component": {
+        "op": "wrap",
+        "prefix": "✝ ",
+        "suffix": " ✝"
+      }
+    },
+    "waterr:Japanese Script": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:deco_skull": {
+      "kind": "ornament",
+      "slot": "ornament",
+      "component": {
+        "op": "wrap",
+        "prefix": "☠ ",
+        "suffix": " ☠"
+      }
+    },
+    "waterr:ArrowUp": {
+      "kind": "mark",
+      "slot": "mark",
+      "component": {
+        "op": "append",
+        "marks": "͎",
+        "only": "alnum"
+      },
+      "note": "從完整 table 62 個值抽取 combining mark；不依 sample。"
+    },
+    "fontvibe:deco_corner": {
+      "kind": "frame",
+      "slot": "frame",
+      "component": {
+        "op": "wrap",
+        "prefix": "「",
+        "suffix": "」"
+      }
+    },
+    "fontvibe:superscript": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:roman_lower": {
+      "kind": "tool",
+      "slot": "base"
+    },
+    "fontvibe:kebab_case": {
+      "kind": "tool",
+      "slot": "base"
+    },
+    "fontvibe:snake_case": {
+      "kind": "tool",
+      "slot": "base"
+    },
+    "fontvibe:strikethrough": {
+      "kind": "mark",
+      "slot": "mark",
+      "component": {
+        "op": "append",
+        "marks": "̶",
+        "only": "all"
+      }
+    },
+    "fontvibe:regional_indicator": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "waterr:Inverted": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:deco_flower": {
+      "kind": "ornament",
+      "slot": "ornament",
+      "component": {
+        "op": "wrap",
+        "prefix": "✿ ",
+        "suffix": " ✿"
+      }
+    },
+    "fontvibe:deco_petal_between": {
+      "kind": "separator",
+      "slot": "separator",
+      "component": {
+        "op": "join",
+        "separator": "❁"
+      }
+    },
+    "waterr:Heavy": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:math_bold_italic": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:greek_style": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:deco_cross_between": {
+      "kind": "separator",
+      "slot": "separator",
+      "component": {
+        "op": "join",
+        "separator": "✟"
+      }
+    },
+    "fontvibe:deco_diamond_between": {
+      "kind": "separator",
+      "slot": "separator",
+      "component": {
+        "op": "join",
+        "separator": "♦"
+      }
+    },
+    "fontvibe:math_script_plain+deco_sparkle": {
+      "kind": "preset",
+      "slot": null,
+      "recipe": {
+        "baseId": "fontvibe:math_script_plain",
+        "ornamentId": "fontvibe:deco_sparkle",
+        "frameId": null,
+        "separatorId": null,
+        "markId": null
+      },
+      "note": "來源含 +；recipe 逐一對應原始元件 ID，原始 steps 不改。"
+    },
+    "fontvibe:math_double_struck": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:small_caps": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:runic+wide_spaced": {
+      "kind": "preset",
+      "slot": null,
+      "recipe": {
+        "baseId": "fontvibe:runic",
+        "ornamentId": null,
+        "frameId": null,
+        "separatorId": "fontvibe:wide_spaced",
+        "markId": null
+      },
+      "note": "來源含 +；recipe 逐一對應原始元件 ID，原始 steps 不改。"
+    },
+    "fontvibe:parenthesized": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "waterr:Comic": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:mimic_syllabics": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "waterr:Scribbles": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:mimic_yi": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:deco_snow_between": {
+      "kind": "separator",
+      "slot": "separator",
+      "component": {
+        "op": "join",
+        "separator": "❄"
+      }
+    },
+    "fontvibe:math_mono": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:deco_cjk_bracket": {
+      "kind": "frame",
+      "slot": "frame",
+      "component": {
+        "op": "wrap",
+        "prefix": "【",
+        "suffix": "】"
+      }
+    },
+    "fontvibe:upside_down+wide_spaced": {
+      "kind": "preset",
+      "slot": null,
+      "recipe": {
+        "baseId": "fontvibe:upside_down",
+        "ornamentId": null,
+        "frameId": null,
+        "separatorId": "fontvibe:wide_spaced",
+        "markId": null
+      },
+      "note": "來源含 +；recipe 逐一對應原始元件 ID，原始 steps 不改。"
+    },
+    "fontvibe:circled_neg": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "waterr:Arabic": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:squared_neg": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:math_sans": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:wingdings": {
+      "kind": "symbol",
+      "slot": "base",
+      "note": "純符號獨立使用，不允許任何裝飾；鍵位表由實際引擎生成，包含大小寫處理。"
+    },
+    "fontvibe:braille": {
+      "kind": "symbol",
+      "slot": "base",
+      "note": "純符號獨立使用，不允許任何裝飾；鍵位表由實際引擎生成，包含大小寫處理。"
+    },
+    "waterr:RockDots": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:deco_star_frame": {
+      "kind": "frame",
+      "slot": "frame",
+      "component": {
+        "op": "wrap",
+        "prefix": "꧁ ",
+        "suffix": " ꧂"
+      }
+    },
+    "fontvibe:deco_crown_between": {
+      "kind": "separator",
+      "slot": "separator",
+      "component": {
+        "op": "join",
+        "separator": "♛"
+      }
+    },
+    "fontvibe:deco_lightning": {
+      "kind": "ornament",
+      "slot": "ornament",
+      "component": {
+        "op": "wrap",
+        "prefix": "⚡ ",
+        "suffix": " ⚡"
+      }
+    },
+    "fontvibe:math_sans_bold": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:deco_flower_between": {
+      "kind": "separator",
+      "slot": "separator",
+      "component": {
+        "op": "join",
+        "separator": "❀"
+      }
+    },
+    "fontvibe:deco_frozen": {
+      "kind": "mark",
+      "slot": "mark",
+      "component": {
+        "op": "append",
+        "marks": "̩̤",
+        "only": "letters",
+        "sourceOnly": "ascii_letters"
+      }
+    },
+    "fontvibe:mimic_comic": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:math_bold": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "waterr:Solitude": {
+      "kind": "frame",
+      "slot": "frame",
+      "component": {
+        "op": "char_wrap",
+        "prefix": "【",
+        "suffix": "】",
+        "only": "alnum"
+      },
+      "note": "逐鍵驗證 table：62 個值均為【原鍵】=true；原始 map 保留於來源。"
+    },
+    "fontvibe:deco_double_bracket": {
+      "kind": "frame",
+      "slot": "frame",
+      "component": {
+        "op": "wrap",
+        "prefix": "〘",
+        "suffix": "〙"
+      }
+    },
+    "fontvibe:math_fraktur+deco_star_frame": {
+      "kind": "preset",
+      "slot": null,
+      "recipe": {
+        "baseId": "fontvibe:math_fraktur",
+        "ornamentId": null,
+        "frameId": "fontvibe:deco_star_frame",
+        "separatorId": null,
+        "markId": null
+      },
+      "note": "來源含 +；recipe 逐一對應原始元件 ID，原始 steps 不改。"
+    },
+    "waterr:DoubleStruck": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:deco_clouds": {
+      "kind": "mark",
+      "slot": "mark",
+      "component": {
+        "op": "append",
+        "marks": "̰",
+        "only": "letters",
+        "sourceOnly": "ascii_letters"
+      }
+    },
+    "waterr:Parenthesis": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:deco_bar_frame": {
+      "kind": "frame",
+      "slot": "frame",
+      "component": {
+        "op": "wrap",
+        "prefix": "▏",
+        "suffix": "▕"
+      }
+    },
+    "fontvibe:deco_star_between": {
+      "kind": "separator",
+      "slot": "separator",
+      "component": {
+        "op": "join",
+        "separator": "⋆"
+      }
+    },
+    "fontvibe:squared": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:math_script_plain": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:deco_fire_between": {
+      "kind": "separator",
+      "slot": "separator",
+      "component": {
+        "op": "join",
+        "separator": "🔥"
+      }
+    },
+    "waterr:MathSans": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:deco_note_between": {
+      "kind": "separator",
+      "slot": "separator",
+      "component": {
+        "op": "join",
+        "separator": "♪"
+      }
+    },
+    "waterr:SuperScript": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:deco_wave": {
+      "kind": "ornament",
+      "slot": "ornament",
+      "component": {
+        "op": "wrap",
+        "prefix": "≋ ",
+        "suffix": " ≋"
+      }
+    },
+    "fontvibe:math_double_struck+wide_spaced": {
+      "kind": "preset",
+      "slot": null,
+      "recipe": {
+        "baseId": "fontvibe:math_double_struck",
+        "ornamentId": null,
+        "frameId": null,
+        "separatorId": "fontvibe:wide_spaced",
+        "markId": null
+      },
+      "note": "來源含 +；recipe 逐一對應原始元件 ID，原始 steps 不改。"
+    },
+    "waterr:MathSansBold": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:math_sans_italic+deco_flourish": {
+      "kind": "preset",
+      "slot": null,
+      "recipe": {
+        "baseId": "fontvibe:math_sans_italic",
+        "ornamentId": null,
+        "frameId": "fontvibe:deco_flourish",
+        "separatorId": null,
+        "markId": null
+      },
+      "note": "來源含 +；recipe 逐一對應原始元件 ID，原始 steps 不改。"
+    },
+    "fontvibe:upside_down": {
+      "kind": "tool",
+      "slot": "base"
+    },
+    "fontvibe:zalgo": {
+      "kind": "mark",
+      "slot": "mark",
+      "component": {
+        "op": "zalgo",
+        "up": 3,
+        "mid": 1,
+        "down": 3,
+        "pools": {
+          "up": [
+            "̀",
+            "́",
+            "̂",
+            "̃",
+            "̄",
+            "̅",
+            "̆",
+            "̇",
+            "̈",
+            "̉",
+            "̊",
+            "̋",
+            "̌",
+            "̍",
+            "̎",
+            "̏",
+            "̐",
+            "̑",
+            "̒",
+            "̓",
+            "̔",
+            "̕",
+            "̽",
+            "̾",
+            "̿",
+            "̀",
+            "́",
+            "͂",
+            "̓",
+            "̈́",
+            "͆",
+            "͇",
+            "͈",
+            "͉",
+            "͊",
+            "͋",
+            "͌",
+            "͐",
+            "͑",
+            "͒",
+            "͗",
+            "͛",
+            "ͣ",
+            "ͤ",
+            "ͥ",
+            "ͦ",
+            "ͧ",
+            "ͨ",
+            "ͩ",
+            "ͪ",
+            "ͫ",
+            "ͬ",
+            "ͭ",
+            "ͮ",
+            "ͯ"
+          ],
+          "mid": [
+            "̕",
+            "̛",
+            "̀",
+            "́",
+            "͘",
+            "̡",
+            "̢",
+            "̧",
+            "̨",
+            "̴",
+            "̵",
+            "̶",
+            "̷",
+            "̸",
+            "͏",
+            "͜",
+            "͝",
+            "͞",
+            "͟",
+            "͠",
+            "͡",
+            "͢"
+          ],
+          "down": [
+            "̖",
+            "̗",
+            "̘",
+            "̙",
+            "̚",
+            "̛",
+            "̜",
+            "̝",
+            "̞",
+            "̟",
+            "̠",
+            "̡",
+            "̢",
+            "̣",
+            "̤",
+            "̥",
+            "̦",
+            "̧",
+            "̨",
+            "̩",
+            "̪",
+            "̫",
+            "̬",
+            "̭",
+            "̮",
+            "̯",
+            "̰",
+            "̱",
+            "̲",
+            "̳",
+            "̹",
+            "̺",
+            "̻",
+            "̼",
+            "͇",
+            "͈",
+            "͉",
+            "͍",
+            "͎",
+            "͓",
+            "͔",
+            "͕",
+            "͖",
+            "͙",
+            "͚"
+          ]
+        },
+        "only": "letters"
+      }
+    },
+    "fontvibe:zalgo_mini": {
+      "kind": "mark",
+      "slot": "mark",
+      "component": {
+        "op": "zalgo",
+        "up": 1,
+        "mid": 0,
+        "down": 1,
+        "pools": {
+          "up": [
+            "̀",
+            "́",
+            "̂",
+            "̃",
+            "̄",
+            "̅",
+            "̆",
+            "̇",
+            "̈",
+            "̉",
+            "̊",
+            "̋",
+            "̌",
+            "̍",
+            "̎",
+            "̏",
+            "̐",
+            "̑",
+            "̒",
+            "̓",
+            "̔",
+            "̕",
+            "̽",
+            "̾",
+            "̿",
+            "̀",
+            "́",
+            "͂",
+            "̓",
+            "̈́",
+            "͆",
+            "͇",
+            "͈",
+            "͉",
+            "͊",
+            "͋",
+            "͌",
+            "͐",
+            "͑",
+            "͒",
+            "͗",
+            "͛",
+            "ͣ",
+            "ͤ",
+            "ͥ",
+            "ͦ",
+            "ͧ",
+            "ͨ",
+            "ͩ",
+            "ͪ",
+            "ͫ",
+            "ͬ",
+            "ͭ",
+            "ͮ",
+            "ͯ"
+          ],
+          "mid": [
+            "̕",
+            "̛",
+            "̀",
+            "́",
+            "͘",
+            "̡",
+            "̢",
+            "̧",
+            "̨",
+            "̴",
+            "̵",
+            "̶",
+            "̷",
+            "̸",
+            "͏",
+            "͜",
+            "͝",
+            "͞",
+            "͟",
+            "͠",
+            "͡",
+            "͢"
+          ],
+          "down": [
+            "̖",
+            "̗",
+            "̘",
+            "̙",
+            "̚",
+            "̛",
+            "̜",
+            "̝",
+            "̞",
+            "̟",
+            "̠",
+            "̡",
+            "̢",
+            "̣",
+            "̤",
+            "̥",
+            "̦",
+            "̧",
+            "̨",
+            "̩",
+            "̪",
+            "̫",
+            "̬",
+            "̭",
+            "̮",
+            "̯",
+            "̰",
+            "̱",
+            "̲",
+            "̳",
+            "̹",
+            "̺",
+            "̻",
+            "̼",
+            "͇",
+            "͈",
+            "͉",
+            "͍",
+            "͎",
+            "͓",
+            "͔",
+            "͕",
+            "͖",
+            "͙",
+            "͚"
+          ]
+        },
+        "only": "letters"
+      }
+    },
+    "waterr:Wizard": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:math_script": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "waterr:MathBold": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:deco_heart_between": {
+      "kind": "separator",
+      "slot": "separator",
+      "component": {
+        "op": "join",
+        "separator": "♡"
+      }
+    },
+    "waterr:Manga": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "waterr:TopSquiggles": {
+      "kind": "mark",
+      "slot": "mark",
+      "component": {
+        "op": "append",
+        "marks": "̾",
+        "only": "alnum"
+      },
+      "note": "從完整 table 62 個值抽取 combining mark；不依 sample。"
+    },
+    "waterr:Fairy": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:keycap": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "utd:parenthesized": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "waterr:Acute": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:deco_arrow_between": {
+      "kind": "separator",
+      "slot": "separator",
+      "component": {
+        "op": "join",
+        "separator": "➤"
+      }
+    },
+    "waterr:Russian": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:upper_case": {
+      "kind": "tool",
+      "slot": "base"
+    },
+    "fontvibe:circled_sans": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "waterr:Little Fancy": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "waterr:Stroked": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:math_bold_fraktur": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "waterr:Funky": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:inverse_case": {
+      "kind": "tool",
+      "slot": "base"
+    },
+    "waterr:Monospace": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "waterr:DoubleUnderline": {
+      "kind": "mark",
+      "slot": "mark",
+      "component": {
+        "op": "append",
+        "marks": "̳",
+        "only": "alnum"
+      },
+      "note": "從完整 table 62 個值抽取 combining mark；不依 sample。異常原值：a=̳a̳"
+    },
+    "fontvibe:binary": {
+      "kind": "tool",
+      "slot": "base"
+    },
+    "waterr:Swirls": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:math_sans_italic": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:deco_snow": {
+      "kind": "ornament",
+      "slot": "ornament",
+      "component": {
+        "op": "wrap",
+        "prefix": "❄ ",
+        "suffix": " ❄"
+      }
+    },
+    "waterr:SideSquiggles": {
+      "kind": "mark",
+      "slot": "mark",
+      "component": {
+        "op": "append",
+        "marks": "̴",
+        "only": "letters",
+        "sourceOnly": "table:letters"
+      },
+      "note": "原始 table 有些值在字首、有些在字尾；提案將相同 combining mark 標準化為字尾 append，原始方向不改。"
+    },
+    "utd:square": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:slashed": {
+      "kind": "mark",
+      "slot": "mark",
+      "component": {
+        "op": "append",
+        "marks": "̷",
+        "only": "all"
+      }
+    },
+    "fontvibe:math_sans_bold_italic": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "waterr:Bubbles": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:alternating_case": {
+      "kind": "tool",
+      "slot": "base"
+    },
+    "fontvibe:deco_cherry_between": {
+      "kind": "separator",
+      "slot": "separator",
+      "component": {
+        "op": "join",
+        "separator": "🌸"
+      }
+    },
+    "waterr:Accent": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:glitch_lines": {
+      "kind": "mark",
+      "slot": "mark",
+      "component": {
+        "op": "append",
+        "marks": "̳̅̿",
+        "only": "letters",
+        "sourceOnly": "ascii_letters"
+      }
+    },
+    "fontvibe:double_underline": {
+      "kind": "mark",
+      "slot": "mark",
+      "component": {
+        "op": "append",
+        "marks": "̳",
+        "only": "all"
+      }
+    },
+    "waterr:Bent": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:roman_upper": {
+      "kind": "tool",
+      "slot": "base"
+    },
+    "fontvibe:constant_case": {
+      "kind": "tool",
+      "slot": "base"
+    },
+    "waterr:Japanese": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:lower_case": {
+      "kind": "tool",
+      "slot": "base"
+    },
+    "fontvibe:math_double_struck+deco_corner": {
+      "kind": "preset",
+      "slot": null,
+      "recipe": {
+        "baseId": "fontvibe:math_double_struck",
+        "ornamentId": null,
+        "frameId": "fontvibe:deco_corner",
+        "separatorId": null,
+        "markId": null
+      },
+      "note": "來源含 +；recipe 逐一對應原始元件 ID，原始 steps 不改。"
+    },
+    "fontvibe:double_circled": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:deco_sad": {
+      "kind": "mark",
+      "slot": "mark",
+      "component": {
+        "op": "append",
+        "marks": "̂",
+        "only": "letters",
+        "sourceOnly": "ascii_letters"
+      }
+    },
+    "utd:regional_indicator": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:math_bold+strikethrough": {
+      "kind": "preset",
+      "slot": null,
+      "recipe": {
+        "baseId": "fontvibe:math_bold",
+        "ornamentId": null,
+        "frameId": null,
+        "separatorId": null,
+        "markId": "fontvibe:strikethrough"
+      },
+      "note": "來源含 +；recipe 逐一對應原始元件 ID，原始 steps 不改。"
+    },
+    "waterr:FullWidth": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:deco_overline": {
+      "kind": "mark",
+      "slot": "mark",
+      "component": {
+        "op": "append",
+        "marks": "̅",
+        "only": "all"
+      }
+    },
+    "fontvibe:math_script+deco_flourish": {
+      "kind": "preset",
+      "slot": null,
+      "recipe": {
+        "baseId": "fontvibe:math_script",
+        "ornamentId": null,
+        "frameId": "fontvibe:deco_flourish",
+        "separatorId": null,
+        "markId": null
+      },
+      "note": "來源含 +；recipe 逐一對應原始元件 ID，原始 steps 不改。"
+    },
+    "fontvibe:subscript": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "utd:black_circle": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:glitch_bars": {
+      "kind": "mark",
+      "slot": "mark",
+      "component": {
+        "op": "append",
+        "marks": "̶̲̅",
+        "only": "letters",
+        "sourceOnly": "ascii_letters"
+      }
+    },
+    "fontvibe:deco_happy": {
+      "kind": "mark",
+      "slot": "mark",
+      "component": {
+        "op": "append",
+        "marks": "̌",
+        "only": "letters",
+        "sourceOnly": "ascii_letters"
+      }
+    },
+    "fontvibe:deco_wave_between": {
+      "kind": "separator",
+      "slot": "separator",
+      "component": {
+        "op": "join",
+        "separator": "～"
+      }
+    },
+    "fontvibe:underline": {
+      "kind": "mark",
+      "slot": "mark",
+      "component": {
+        "op": "append",
+        "marks": "̲",
+        "only": "all"
+      }
+    },
+    "fontvibe:digit_fullstop": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "waterr:Fable": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:deco_arrow": {
+      "kind": "ornament",
+      "slot": "ornament",
+      "component": {
+        "op": "wrap",
+        "prefix": "➶ ",
+        "suffix": " ➴"
+      }
+    },
+    "fontvibe:backwards": {
+      "kind": "tool",
+      "slot": "base"
+    },
+    "fontvibe:mimic_andalucia": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "waterr:1337 [extreme]": {
+      "kind": "symbol",
+      "slot": "base",
+      "note": "純符號獨立使用，不允許任何裝飾；鍵位表由實際引擎生成，包含大小寫處理。"
+    },
+    "fontvibe:circled_neg_sans": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:deco_dot_between": {
+      "kind": "separator",
+      "slot": "separator",
+      "component": {
+        "op": "join",
+        "separator": "·"
+      }
+    },
+    "fontvibe:mimic_currency": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:camel_case": {
+      "kind": "tool",
+      "slot": "base"
+    },
+    "fontvibe:dice": {
+      "kind": "symbol",
+      "slot": "base",
+      "note": "純符號獨立使用，不允許任何裝飾；鍵位表由實際引擎生成，包含大小寫處理。"
+    },
+    "waterr:Andalusia": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:fullwidth": {
+      "kind": "font",
+      "slot": "base"
+    },
+    "fontvibe:deco_lightning_between": {
+      "kind": "separator",
+      "slot": "separator",
+      "component": {
+        "op": "join",
+        "separator": "⚡"
+      }
+    },
+    "waterr:Exes": {
+      "kind": "mark",
+      "slot": "mark",
+      "component": {
+        "op": "append",
+        "marks": "͓̽",
+        "only": "alnum"
+      },
+      "note": "從完整 table 62 個值抽取 combining mark；不依 sample。"
+    },
+    "waterr:Rune": {
+      "kind": "font",
+      "slot": "base"
+    }
+  },
+  "counts": {
+    "preset": 14,
+    "ornament": 11,
+    "frame": 8,
+    "font": 74,
+    "symbol": 5,
+    "mark": 20,
+    "separator": 19,
+    "tool": 15
+  },
+  "notes": [
+    "分類按轉換功能，不按字元外觀或碼位長度。",
+    "純符號完全獨立；原始steps／aliases與來源快照不變。",
+    "表情／圖案類別包含句首尾ornament及字間separator，組合時分開選擇。",
+    "預設組合拆成recipe；不另增加純字體總數。",
+    "組合器把mark資格擴展至Unicode字母／數字，保留來源單項模式。",
+    "map型附加標記在組合器統一字後位置；原始變體與異常值仍可直接複製。"
+  ]
+}

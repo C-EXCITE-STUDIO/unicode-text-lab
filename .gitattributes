@@ -1,0 +1,9 @@
+# 程式與文件使用一致的換行；Windows 啟動器 checkout 為 CRLF。
+* text=auto eol=lf
+*.cmd text eol=crlf
+
+# 來源、基準與授權都是原始快照，不可讓 Git 轉換位元組。
+sources/** -text
+tests/fixtures/** -text
+web/data/** -text
+web/licenses/** -text
